@@ -101,7 +101,7 @@ def brute_force(left, right):
             isEnd = True
             break
 
-ip = raw_input("please input ip address: ")
+ip = "127.0.0.1"
 def threaded_brute_force(num_threads=8):
     threads = []
     step = 0x1000/num_threads
